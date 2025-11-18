@@ -1,0 +1,79 @@
+/* Estilo geral */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 40px;
+    background-color: #fafafa;
+    color: #333;
+    line-height: 1.6;
+    text-align: center; /* Centraliza textos */
+}
+
+/* Para centralizar elementos que não seguem text-align, como tabelas e imagens */
+img, table, blockquote, ul, ol {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Títulos */
+h1, h2, h3 {
+    color: #c0392b;
+    margin-bottom: 10px;
+}
+
+/* Parágrafos */
+p {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Blockquote */
+blockquote {
+    border-left: 4px solid #c0392b;
+    padding-left: 15px;
+    margin: 20px auto;
+    color: #555;
+    font-style: italic;
+    width: 70%;
+}
+
+/* Listas */
+ul, ol {
+    text-align: left; /* Para não ficar estranho visualmente */
+    width: fit-content;
+}
+
+/* Imagem */
+img {
+    width: 350px;
+    border-radius: 6px;
+    display: block;
+    margin-top: 20px;
+}
+
+/* Tabela */
+table {
+    margin-top: 25px;
+    border-collapse: collapse;
+    width: 60%;
+    max-width: 600px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+th {
+    background-color: #e74c3c;
+    color: white;
+}
+
+caption {
+    caption-side: top;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+
+
+
